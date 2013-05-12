@@ -18,3 +18,6 @@ sed -i "/langsorder:/a- id: ${1}" _config.yml
 sed -i "s_- id:${1}_- id: ${1}_g" _config.yml
 sed -i "/all:/a- ${1}: " _config.yml
 sed -i "s_- ${1}_  ${1}_g" _config.yml
+if [[ -e ${1}/version-history.html ]]; then
+  rm ${1}/version-history.html
+fi
