@@ -27,13 +27,11 @@ Installing dependencies on older Ubuntu and Debian distributions
 
 ### Add new translations
 
-1. Begin, Run ./_contrib/translate (ISO 639-1 language code) (language name) to create your language. Ex : ./_contrib/translate fr "Français"
+1. Begin, Add language code where required in _config.yml.
 2. Import, Download the translated .yml file from transifex and put that file in _translations.
-3. Links, Rename each .html file so that their names are identical with the urls at the end of the imported .yml translation file.
-4. Images, Update the few images that contain text with a vector image editing software like Inkscape. Translations for these images are at the end of the imported .yml translation file. Make sure to convert all texts to paths when saving final svg files.
-5. Languages, Make sure that the languages are listed in alphabetical order in _config.yml
-6. Press, Remove "press coverage" and "interviewees" in the Press center.
-7. Preview, Check if all pages are complete, test each links, check that texts with a limited size display nicely. For example, right side buttons and some titles have height or width restrictions.
+3. Images, Translate the few images that contain text with a vector image editing software like Inkscape. Translations for these images are at the end of the imported .yml translation file. Make sure to convert all texts to paths when saving final svg files.
+4. Vocabulary, Add correct alphabetical order for your language in the vocabulary page.
+5. Preview, Check if all pages are complete, test each links, check that texts with a limited size display nicely. For example, right side buttons and some titles have height or width restrictions.
 
 ### Update translations
 
